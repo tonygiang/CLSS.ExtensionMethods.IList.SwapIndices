@@ -2,7 +2,7 @@
 
 ### Problem
 
-Swapping indices in a list is a common use case is a common use case that usually requires 3 lines of code:
+Swapping indices in a list is a common use case that usually requires 3 lines of code:
 
 ```
 var tempVal = collection[1];
@@ -12,7 +12,7 @@ collection[4] = tempVal;
 
 ### Solution
 
-`SwapIndices` in an extension method that reduces this common operation to 1 line of code:
+`SwapIndices` is an extension method that reduces this common operation to 1 line of code:
 
 ```
 using CLSS;
